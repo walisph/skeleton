@@ -4,11 +4,26 @@
     "keywords": [
         "framework",
         "laravel",
-
+        "walisph",
+        "walis philippines",
+        "skeleton"
     ],
     "license": "MIT",
     "require": {
-        "laravel/framework": "4.2.*"
+        "laravel/framework": "4.2.*",
+        "vtalbot/markdown": "1.5",
+        "facebook/php-sdk-v4" : "4.0.*",
+        "intervention/image": "2.*",
+        "aws/aws-sdk-php-laravel": "1.*"
+    },
+    "require-dev": {
+        "way/generators": "~2.0",
+        "orangehill/iseed": "dev-master",
+        "phpunit/phpunit": "~4.*",
+        "mockery/mockery": "dev-master",
+        "itsgoingd/clockwork": "1.*",
+        "walisph/assets": "0.1.*",
+        "phpspec/phpspec": "~2.0"
     },
     "autoload": {
         "classmap": [
@@ -41,6 +56,5 @@
     },
     "config": {
         "preferred-install": "dist"
-    },
-    "minimum-stability": "stable"
+    }
 }
