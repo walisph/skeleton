@@ -13,14 +13,5 @@
 
 Route::get('/', function()
 {
-    // return gethostname();
-    // var_dump(gethostname(true));
-    $env = [
-        'local' => [
-            'walisph-ws-3',
-            'walisph-ws-3.local'
-        ]
-    ];
-    var_dump( App::environment() );
-
+    return View::make('hello');
 });
