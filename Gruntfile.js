@@ -262,7 +262,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-copy');
 
-    grunt.registerTask('js', ['concat:js', 'coffee:app', 'uglify', 'copy:js']);
+    grunt.registerTask('js', ['concat:js', 'uglify', 'copy:js']);
     grunt.registerTask('css', ['sass', 'concat:css', 'copy:fonts', 'cssmin', 'copy:css']);
 
     grunt.registerTask('build', ['js', 'css']);
