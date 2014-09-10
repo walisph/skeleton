@@ -1,0 +1,5 @@
+# WalisPH 2 Skeleton
+
+* * *
+
+###### CREATED AND DEVELOPED BY WALIS PHILIPPINES - 2014
