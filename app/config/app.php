@@ -122,6 +122,21 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 
+		/**
+		 * 3rd Party Service Providers...
+		 */
+		'VTalbot\Markdown\MarkdownServiceProvider',
+		'Intervention\Image\ImageServiceProvider',
+		'Aws\Laravel\AwsServiceProvider',
+
+		/**
+		 * 3rd Party Service Providers for Development
+		 */
+		'Way\Generators\GeneratorsServiceProvider',
+		'Orangehill\Iseed\IseedServiceProvider',
+		'Clockwork\Support\Laravel\ClockworkServiceProvider',
+		'Walisph\Assets\AssetsServiceProvider',
+
 	),
 
 	/*
@@ -188,6 +203,18 @@ return array(
 		'URL'             => 'Illuminate\Support\Facades\URL',
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
+
+		/**
+		 * 3rd Party Aliases
+		 */
+		'Markdown' 		  => 'VTalbot\Markdown\Facades\Markdown',
+		'Image' 		  => 'Intervention\Image\Facades\Image',
+		'AWS' 			  => 'Aws\Laravel\AwsFacade',
+
+		/**
+		 * 3rd Party Aliases
+		 */
+		'Clockwork' 	  => 'Clockwork\Support\Laravel\Facade',
 
 	),
 
