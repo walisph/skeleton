@@ -14,12 +14,13 @@
         "vtalbot/markdown": "1.5",
         "facebook/php-sdk-v4" : "4.0.*",
         "intervention/image": "2.*",
+        "intervention/imagecache": "2.*",
         "aws/aws-sdk-php-laravel": "1.*"
     },
     "require-dev": {
         "way/generators": "~2.0",
         "orangehill/iseed": "dev-master",
-        "phpunit/phpunit": "~4.*",
+        "phpunit/phpunit": "~4.0",
         "mockery/mockery": "dev-master",
         "itsgoingd/clockwork": "1.*",
         "walisph/assets": "0.1.*",
