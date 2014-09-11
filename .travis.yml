@@ -11,6 +11,9 @@ before_script:
   - npm install -g grunt-cli
   - composer self-update
   - composer install --prefer-source --no-interaction --dev
+  - npm install
+  - bower install
+  - grunt build
 
 script:
   - vendor/bin/phpspec run
