@@ -23,7 +23,7 @@
         "phpunit/phpunit": "~4.0",
         "mockery/mockery": "dev-master",
         "itsgoingd/clockwork": "1.*",
-        "walisph/assets": "0.1.*",
+        "walisph/assets": "0.1.1",
         "phpspec/phpspec": "~2.0"
     },
     "autoload": {
