@@ -10,11 +10,11 @@ keys:
 
 folders:
     - map: .
-      to: /home/vagrant/Code
+      to: /home/vagrant/App
 
 sites:
     - map: homestead.app
-      to: /home/vagrant/Code/public
+      to: /home/vagrant/App/public
 
 variables:
     - key: application_environment
