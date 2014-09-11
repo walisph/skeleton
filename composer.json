@@ -1,6 +1,7 @@
 {
     "name": "walisph/skeleton",
     "description": "The WalisPH Skeleton Application",
+    "version": "1.0.1",
     "keywords": [
         "framework",
         "laravel",
