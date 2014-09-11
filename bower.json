@@ -1,0 +1,42 @@
+{
+    "name": "walisph/skeleton",
+    "type": "project",
+    "version": "0.1.0",
+    "description": "The WalisPH Skeleton Application",
+    "license": "MIT",
+    "dependencies": {
+        "jquery": ">=2.1.1",
+        "backbone-amd": ">=1.1.0",
+        "underscore-amd": ">=1.5.2",
+        "foundation": ">=5.1.0",
+        "bootstrap": ">=3.1.*",
+        "jquery.lazyload": ">=1.9.3",
+        "bootstrap-select": ">=1.5.2",
+        "animate.css": ">=3.1.1",
+        "bootstrap-paginator": ">=1.0.2",
+        "jquery-touchswipe": null,
+        "jquery-validation": null,
+        "photoset-grid": null,
+        "jquery-colorbox": null,
+        "perfect-scrollbar": null,
+        "owl.carousel": null,
+        "owlcarousel": null,
+        "bootstrap-markdown": ">=2.5.0",
+        "dropzone": ">=3.10.2",
+        "isotope": ">=2.0.0",
+        "font-awesome": ">=4.1.0"
+    },
+    "devDependencies": {
+        "fancybox": null,
+        "skrollr": ">=0.6.26"
+    },
+    "ignore": [
+        "**/.*",
+        "_config.yml",
+        "CNAME",
+        "composer.json",
+        "CONTRIBUTING.md",
+        "docs",
+        "js/tests"
+    ]
+}
