@@ -79,3 +79,14 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+require app_path().'/helpers.php';
+
+/*
+|--------------------------------------------------------------------------
+| Require the Extensions
+|--------------------------------------------------------------------------|
+*/
+foreach( glob(extension_path() . '/*.php') as $ext )
+{
+    require $ext;
+}
